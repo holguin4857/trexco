@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Navbar from "@/components/Navbar";
+import Link from 'next/link';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,115 +12,108 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="the easier way to ship" />
+        <title>trexco</title>
+        <meta name="description" content="the easy way to ship" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
+
+      <div>
+        <Navbar />
+      </div>
+
+      <section className='container'>
+        <div className='content'>
+          <h1>the easy way to ship worldwide</h1>
+          <p>trexco is a practical and affordable shipping solution, located in the UK and focused on sea and air transport to the US, Canada, Mexico and South America.</p>
+          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
         </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
+        <div className='image'>
+          <img src='images/container1.png' alt='' width="600px" />
         </div>
+      </section>
 
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
+      <section className='container-2'>
+        <div className='content-2'>
+          <h2>Pack it, Label it, Send it.. Simple!</h2>
         </div>
-      </main>
+      </section>
+
+
+
+      <section className='column-3'>
+        <div className='column'>
+          <img src='images/man-compu-cat-round.webp' />
+          <h2>Place an order</h2>
+          <p>Pick the trexco pallet boxes you need for your shipment and book the delivery and collection date.</p>
+        </div>
+        <div className='column'>
+          <img src='images/box-and-cat-round.webp' />
+          <h2>Start packing</h2>
+          <p>Pack your shipment on the Trexx pallet boxes, start packing the heavy stuff first and fragile on the top, seal and label the box.</p>
+        </div>
+        <div className='column'>
+          <img src='images/man-and-truck-round.webp' />
+          <h2>Arrange collection</h2>
+          <p>Choose the collection date a driver will load your Trexx-Box with a pallet truck and it will get shipped to your destination.</p>
+        </div>
+      </section>
+
+
+      <section className='container-2'>
+        <div className='content-2'>
+          <h2>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</h2>
+        </div>
+      </section>
+
+      <section className='container'>
+        <div className='content'>
+          <h1>how it works</h1>
+          <p>We offer do-it-yourself shipping options, for those who might be looking for an easy, affordable, efficient, way to ship.</p>
+          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
+        </div>
+        <div className='image'>
+          <img src='images/man-compu-cat-round.png' alt='' width="600px" />
+        </div>
+      </section>
+
+
+      <section className='container'>
+        <div className='content'>
+          <h1>shipping with confidence</h1>
+          <p>We have secured competitive shipping rates to many destinations around the world, from air, road or sea shipment. We have over 17 years of experience as freight forwarders.</p>
+        
+        </div>
+      
+      </section>
+
+      
+      <article class="footer">
+        <div className='columns'>
+        <article class="column">
+          <h3>FAQ</h3>
+          <ul>
+              <li><Link href='faq'>FAQ</Link></li>
+              <li><Link href='how'>How it works</Link></li>
+              <li><Link href='contact'>Contact us</Link></li>
+          </ul>
+        </article>
+        <article class="column">
+          <h3>terms</h3>
+          <ul>
+               <li><Link href='prohibited'>Prohibited items</Link></li>
+              <li><Link href='privacy'>Privacy policy</Link></li>
+              <li><Link href='terms'>Terms & conditions</Link></li>
+            </ul>   
+        </article>
+        </div>
+      </article>
+
+
+
+
+
+
     </>
   )
 }
