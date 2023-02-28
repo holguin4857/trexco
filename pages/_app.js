@@ -1,4 +1,7 @@
 import '@/styles/navbar.css'
+import '@/styles/layout.css'
+import '@/styles/Home.module.css'
+import '@/styles/footer.css'
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
