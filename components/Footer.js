@@ -1,27 +1,45 @@
+import Link from "next/link";
 
 export default function Footer () {
     return ( 
         <>
-         <article className='footer'>
-        <div className='columns'>
-        <article className="column">
-          <h3>FAQ</h3>
-          <ul>
-              <li link href='#faq'>FAQ</li>
-              <li link href='#how'>How it works</li>
-              <li link href='#contact'>Contact us</li>
-          </ul>
-        </article>
-        <article className="column">
-          <h3>terms</h3>
-          <ul>
-              <li link href='#prohibited'>Prohibited items</li>
-              <li link href='#privacy'>Privacy policy</li>
-              <li link href='#terms'>Terms & conditions</li>
-            </ul>   
-        </article>
-        </div>
-      </article>
+        <footer className="footer">
+          <div className="cont">
+            <div className="row">
+              <div className="footer-col">
+                <h4>Terms</h4>
+                <ul>
+                  <li><Link href="terms">Terms and conditions</Link></li>
+                  <li><Link href="privacy">Privacy policy</Link></li>
+                  
+                </ul>
+              </div>
+              <div className="footer-col">
+                <h4>About us</h4>
+                <ul>
+                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="about">About us</Link></li>
+                  <li><Link href="contact">Contact us</Link></li>
+                </ul>
+              </div>
+              <div className="footer-col">
+                <h4>Booking</h4>
+                <ul>
+                  <li><Link href="how">How it works</Link></li>
+                  <li><Link href="how">FAQ</Link></li>
+                  <li><Link href="book">Book now</Link></li>
+                </ul>
+              </div>
+              <div className="footer-col">
+                <h4>Follow us</h4>
+                <ul>
+                  <li><Link href="https://www.facebook.com/TrexcoShipping/">Facebook</Link></li>
+                  <li><Link href="https://twitter.com/trexcoshipping">Twitter</Link></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
         
         </>
     )
