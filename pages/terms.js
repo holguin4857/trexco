@@ -113,7 +113,7 @@ export default function Terms() {
             3.2 - Trexco reserves the right, by giving written notice to the
             Customer to increase the price of the Services to reflect any
             increase which is due to any factor beyond the control of Trexco
-            (such as without limitation, changes in the Delivery Address or any
+            such as without limitation, changes in the Delivery Address or any
             changes instigated by the Customer any foreign exchange rate
             fluctuation, currency regulation, alteration of duties, significant
             increase in the cost of labour, duties or taxes levied by any
