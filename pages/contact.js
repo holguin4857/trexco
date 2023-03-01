@@ -1,8 +1,5 @@
-import Head from 'next/head'
-import Navbar from "@/components/Navbar";
-import Link from 'next/link';
-
-
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -14,55 +11,23 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <Navbar />
-      </div>
-
-      <section className='container'>
-        <div className='content'>
-          
-         
+      <section className="container">
+        <div className="content">
           <li>Address: unit 122, Access House, 61 Willow walk</li>
           <li>London, SE1 5SF, UK</li>
           <li>Tel: +44 020 7096 1031, +44 020 7097 2265 </li>
           <li>Email: hello@trexco.net</li>
           <p></p>
-          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Contact us</Link></button>
-          
+          <button className="button">
+            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+              Book now
+            </Link>
+          </button>
         </div>
-        <div className='image'>
-          <img src='images/container1.png' alt='' width="600px" />
+        <div className="image">
+          <img src="images/container1.png" alt="" width="600px" />
         </div>
       </section>
-
-
-      
-      <article className='footer'>
-        <div className='columns'>
-        <article className="column">
-          <h3>FAQ</h3>
-          <ul>
-              <li link href='#faq'>FAQ</li>
-              <li link href='#how'>How it works</li>
-              <li link href='#contact'>Contact us</li>
-          </ul>
-        </article>
-        <article className="column">
-          <h3>terms</h3>
-          <ul>
-              <li link href='#prohibited'>Prohibited items</li>
-              <li link href='#privacy'>Privacy policy</li>
-              <li link href='#terms'>Terms & conditions</li>
-            </ul>   
-        </article>
-        </div>
-      </article>
-
-
-
-
-
-
     </>
-  )
+  );
 }

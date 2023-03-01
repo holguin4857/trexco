@@ -3,6 +3,8 @@ import '@/styles/layout.css'
 import '@/styles/Home.module.css'
 import '@/styles/footer.css'
 import { Poppins } from 'next/font/google'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const poppins = Poppins({
   weight: '400',
@@ -11,8 +13,12 @@ const poppins = Poppins({
 
 export default function App({ Component, pageProps }) {
   return (
+    <>
+    <Navbar />
     <main className={poppins.className}>
       <Component {...pageProps} />
     </main>
+    <Footer />
+    </>
   )
 }

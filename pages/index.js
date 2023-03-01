@@ -1,12 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Navbar from "@/components/Navbar";
-import Link from 'next/link';
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import Link from "next/link";
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -18,102 +15,95 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <Navbar />
-      </div>
-
-      <section className='container'>
-        <div className='content'>
+      <section className="container">
+        <div className="content">
           <h1>the easy way to ship worldwide</h1>
-          <p>trexco is a practical and affordable shipping solution, located in the UK and focused on sea and air transport to the US, Canada, Mexico and South America.</p>
-          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
+          <p>
+            trexco is a practical and affordable shipping solution, located in
+            the UK and focused on sea and air transport to the US, Canada,
+            Mexico and South America.
+          </p>
+          <button className="button">
+            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+              Book now
+            </Link>
+          </button>
         </div>
-        <div className='image'>
-          <img src='images/container1.png' alt='' width="600px" />
+        <div className="image">
+          <img src="images/container1.png" alt="" width="600px" />
         </div>
       </section>
 
-      <section className='container-2'>
-        <div className='content-2'>
+      <section className="container-2">
+        <div className="content-2">
           <h2>Pack it, Label it, Send it.. Simple!</h2>
         </div>
       </section>
 
-
-
-      <section className='column-3'>
-        <div className='column'>
-          <img src='images/man-compu-cat-round.webp' />
+      <section className="column-3">
+        <div className="column">
+          <img src="images/man-compu-cat-round.webp" />
           <h2>Place an order</h2>
-          <p>Pick the trexco pallet boxes you need for your shipment and book the delivery and collection date.</p>
+          <p>
+            Pick the trexco pallet boxes you need for your shipment and book the
+            delivery and collection date.
+          </p>
         </div>
-        <div className='column'>
-          <img src='images/box-and-cat-round.webp' />
+        <div className="column">
+          <img src="images/box-and-cat-round.webp" />
           <h2>Start packing</h2>
-          <p>Pack your shipment on the Trexx pallet boxes, start packing the heavy stuff first and fragile on the top, seal and label the box.</p>
+          <p>
+            Pack your shipment on the Trexx pallet boxes, start packing the
+            heavy stuff first and fragile on the top, seal and label the box.
+          </p>
         </div>
-        <div className='column'>
-          <img src='images/man-and-truck-round.webp' />
+        <div className="column">
+          <img src="images/man-and-truck-round.webp" />
           <h2>Arrange collection</h2>
-          <p>Choose the collection date a driver will load your Trexx-Box with a pallet truck and it will get shipped to your destination.</p>
+          <p>
+            Choose the collection date a driver will load your Trexx-Box with a
+            pallet truck and it will get shipped to your destination.
+          </p>
         </div>
       </section>
 
-
-      <section className='container-2'>
-        <div className='content-2'>
-          <h2>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</h2>
+      <section className="container-2">
+        <div className="content-2">
+          <h2>
+            Trexco have simplified shipping by using an easy, convenient way to
+            pack, store, and move your cargo - all at the same time!
+          </h2>
         </div>
       </section>
 
-      <section className='container'>
-        <div className='content'>
+      <section className="container">
+        <div className="content">
           <h1>how it works</h1>
-          <p>We offer do-it-yourself shipping options, for those who might be looking for an easy, affordable, efficient, way to ship.</p>
-          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
+          <p>
+            We offer do-it-yourself shipping options, for those who might be
+            looking for an easy, affordable, efficient, way to ship.
+          </p>
+          <button className="button">
+            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+              Book now
+            </Link>
+          </button>
         </div>
-        <div className='image'>
-          <img src='images/man-compu-cat-round.png' alt='' width="600px" />
+        <div className="image">
+          <img src="images/man-compu-cat-round.png" alt="" width="600px" />
         </div>
       </section>
 
-
-      <section className='container'>
-        <div className='content'>
+      <section className="container">
+        <div className="content">
           <h1>shipping with confidence</h1>
-          <p>We have secured competitive shipping rates to many destinations around the world, from air, road or sea shipment. We have over 17 years of experience as freight forwarders.</p>
-        
+          <p>
+            We have secured competitive shipping rates to many destinations
+            around the world, from air, road or sea shipment. We have over 17
+            years of experience as freight forwarders.
+          </p>
         </div>
-      
       </section>
-
-      
-      <article className='footer'>
-        <div className='columns'>
-        <article className="column">
-          <h3>FAQ</h3>
-          <ul>
-              <li link href='#faq'>FAQ</li>
-              <li link href='#how'>How it works</li>
-              <li link href='#contact'>Contact us</li>
-          </ul>
-        </article>
-        <article className="column">
-          <h3>terms</h3>
-          <ul>
-              <li link href='#prohibited'>Prohibited items</li>
-              <li link href='#privacy'>Privacy policy</li>
-              <li link href='#terms'>Terms & conditions</li>
-            </ul>   
-        </article>
-        </div>
-      </article>
-
-
-
-
-
-
     </>
-  )
+  );
 }

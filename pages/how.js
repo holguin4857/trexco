@@ -1,8 +1,5 @@
-import Head from 'next/head'
-import Navbar from "@/components/Navbar";
-import Link from 'next/link';
-
-
+import Head from "next/head";
+import Link from "next/link";
 
 export default function How() {
   return (
@@ -14,72 +11,49 @@ export default function How() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <Navbar />
-      </div>
-
-     
-
-    
-      
-
-
-      <section className='column-3'>
-        <div className='column'>
-          <img src='images/man-compu-cat-round.webp' />
+      <section className="column-3">
+        <div className="column">
+          <img src="images/man-compu-cat-round.webp" />
           <h2>Place an order</h2>
-          <p>Pick the trexco pallet boxes you need for your shipment and book the delivery and collection date.</p>
+          <p>
+            Pick the trexco pallet boxes you need for your shipment and book the
+            delivery and collection date.
+          </p>
         </div>
-        <div className='column'>
-          <img src='images/box-and-cat-round.webp' />
+        <div className="column">
+          <img src="images/box-and-cat-round.webp" />
           <h2>Start packing</h2>
-          <p>Pack your shipment on the Trexx pallet boxes, start packing the heavy stuff first and fragile on the top, seal and label the box.</p>
+          <p>
+            Pack your shipment on the Trexx pallet boxes, start packing the
+            heavy stuff first and fragile on the top, seal and label the box.
+          </p>
         </div>
-        <div className='column'>
-          <img src='images/man-and-truck-round.webp' />
+        <div className="column">
+          <img src="images/man-and-truck-round.webp" />
           <h2>Arrange collection</h2>
-          <p>Choose the collection date a driver will load your Trexx-Box with a pallet truck and it will get shipped to your destination.</p>
+          <p>
+            Choose the collection date a driver will load your Trexx-Box with a
+            pallet truck and it will get shipped to your destination.
+          </p>
         </div>
       </section>
 
-
-      <section className='container'>
-        <div className='content'>
-          <p>Trexco offers do-it-yourself shipping options, for those who might be looking for an easy, affordable, efficient, way to ship.</p>
-          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
+      <section className="container">
+        <div className="content">
+          <p>
+            Trexco offers do-it-yourself shipping options, for those who might
+            be looking for an easy, affordable, efficient, way to ship.
+          </p>
+          <button className="button">
+            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+              Book now
+            </Link>
+          </button>
         </div>
-        <div className='image'>
-          <img src='images/container1.png' alt='' width="600px" />
+        <div className="image">
+          <img src="images/container1.png" alt="" width="600px" />
         </div>
       </section>
-
-      
-      <article className='footer'>
-        <div className='columns'>
-        <article className="column">
-          <h3>FAQ</h3>
-          <ul>
-              <li link href='#faq'>FAQ</li>
-              <li link href='#how'>How it works</li>
-              <li link href='#contact'>Contact us</li>
-          </ul>
-        </article>
-        <article className="column">
-          <h3>terms</h3>
-          <ul>
-              <li link href='#prohibited'>Prohibited items</li>
-              <li link href='#privacy'>Privacy policy</li>
-              <li link href='#terms'>Terms & conditions</li>
-            </ul>   
-        </article>
-        </div>
-      </article>
-
-
-
-
-
-
     </>
-  )
+  );
 }
