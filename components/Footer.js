@@ -9,8 +9,8 @@ export default function Footer () {
               <div className="footer-col">
                 <h4>Terms</h4>
                 <ul>
-                  <li><Link href="terms">Terms and conditions</Link></li>
-                  <li><Link href="privacy">Privacy policy</Link></li>
+                  <li><Link href="/">Terms and conditions</Link></li>
+                  <li><Link href="/">Privacy policy</Link></li>
                   
                 </ul>
               </div>
