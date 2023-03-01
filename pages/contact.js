@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -25,7 +26,12 @@ export default function Contact() {
           </button>
         </div>
         <div className="image">
-          <img src="images/container1.png" alt="" width="600px" />
+          <Image
+            src="/images/container1.png"
+            alt="loading"
+            width={600}
+            height={466.5}
+          />
         </div>
       </section>
     </>

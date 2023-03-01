@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,19 +30,23 @@ export default function Home() {
           </button>
         </div>
         <div className="image">
-          <img src="images/container1.png" alt="" width="600px" />
-        </div>
-      </section>
-
-      <section className="container-2">
-        <div className="content-2">
-          <h2>Pack it, Label it, Send it.. Simple!</h2>
+          <Image
+            src="/images/container1.png"
+            alt="loading"
+            width={600}
+            height={466.5}
+          />
         </div>
       </section>
 
       <section className="column-3">
         <div className="column">
-          <img src="images/man-compu-cat-round.webp" />
+          <Image
+            src="/images/man-compu-cat-round.webp"
+            alt="loading"
+            width={200}
+            height={200}
+          />
           <h2>Place an order</h2>
           <p>
             Pick the trexco pallet boxes you need for your shipment and book the
@@ -49,7 +54,12 @@ export default function Home() {
           </p>
         </div>
         <div className="column">
-          <img src="images/box-and-cat-round.webp" />
+          <Image
+            src="/images/box-and-cat-round.webp"
+            alt="loading"
+            width={200}
+            height={200}
+          />
           <h2>Start packing</h2>
           <p>
             Pack your shipment on the Trexx pallet boxes, start packing the
@@ -57,7 +67,12 @@ export default function Home() {
           </p>
         </div>
         <div className="column">
-          <img src="images/man-and-truck-round.webp" />
+          <Image
+            src="/images/man-and-truck-round.webp"
+            alt="loading"
+            width={200}
+            height={200}
+          />
           <h2>Arrange collection</h2>
           <p>
             Choose the collection date a driver will load your Trexx-Box with a
@@ -89,7 +104,12 @@ export default function Home() {
           </button>
         </div>
         <div className="image">
-          <img src="images/man-compu-cat-round.png" alt="" width="600px" />
+          <Image
+            src="/images/man-compu-cat-round.png"
+            alt="loading"
+            width={600}
+            height={337.5}
+          />
         </div>
       </section>
 

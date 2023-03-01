@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Book() {
   return (
@@ -26,7 +27,12 @@ export default function Book() {
           </button>
         </div>
         <div className="image">
-          <img src="images/box-and-cat-round.png" alt="" width="600px" />
+          <Image
+            src="/images/box-and-cat-round.png"
+            alt="loading"
+            width={600}
+            height={337.5}
+          />
         </div>
       </section>
 
@@ -41,7 +47,12 @@ export default function Book() {
 
       <section className="column-3">
         <div className="column">
-          <img src="images/man-compu-cat-round.webp" />
+          <Image
+            src="/images/man-compu-cat-round.webp"
+            alt="loading"
+            width={200}
+            height={200}
+          />
           <h2>Place an order</h2>
           <p>
             Pick the trexco pallet boxes you need for your shipment and book the
@@ -49,7 +60,12 @@ export default function Book() {
           </p>
         </div>
         <div className="column">
-          <img src="images/box-and-cat-round.webp" />
+          <Image
+            src="/images/box-and-cat-round.webp"
+            alt="loading"
+            width={200}
+            height={200}
+          />
           <h2>Start packing</h2>
           <p>
             Pack your shipment on the Trexx pallet boxes, start packing the
@@ -57,7 +73,12 @@ export default function Book() {
           </p>
         </div>
         <div className="column">
-          <img src="images/man-and-truck-round.webp" />
+          <Image
+            src="/images/man-and-truck-round.webp"
+            alt="loading"
+            width={200}
+            height={200}
+          />
           <h2>Arrange collection</h2>
           <p>
             Choose the collection date a driver will load your Trexx-Box with a
