@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Terms() {
   return (
@@ -83,7 +84,7 @@ export default function Terms() {
           <p>
             1.11 - Website means www.trexco.net, www.trexxbox.com, www.trexx.co
           </p>
-          <ol start="2">
+          <ol>
             <p> Application&nbsp;</p>
           </ol>
           <p>
@@ -98,7 +99,7 @@ export default function Terms() {
           <p>
             2.2 - These terms do not affect your statutory rights as a consumer.
           </p>
-          <ol start="3">
+          <ol>
             <p> Prices&nbsp;</p>
           </ol>
           <p>
@@ -130,7 +131,7 @@ export default function Terms() {
             Customer), VAT and any other tax, duty or charge payable by the
             Customer shall be added to the price stated.
           </p>
-          <ol start="4">
+          <ol>
             <p> Terms of Payment&nbsp;</p>
           </ol>
           <p>4.1 - All prices are in UK &pound; Sterling</p>
@@ -163,7 +164,7 @@ export default function Terms() {
             (a part month being treated as a full month for the purpose of
             calculating interest);
           </p>
-          <ol start="5">
+          <ol>
             <p> Additional Charges&nbsp;</p>
           </ol>
           <p>
@@ -196,7 +197,7 @@ export default function Terms() {
             5.1.5 the Customer&rsquo;s cargo is incurring charges for storage
             prior to shipment being made
           </p>
-          <ol start="6">
+          <ol>
             <li> Box specifications&nbsp;</li>
           </ol>
           <p>6.1 - Boxes must not unless agreed in writing by Trexco:</p>
@@ -220,7 +221,7 @@ export default function Terms() {
             consequential to overweight/incorrectly stowed containers will
             remain for the account of the customer.
           </p>
-          <ol start="7">
+          <ol>
             <p> Collection&nbsp;</p>
           </ol>
           <p>
@@ -269,7 +270,7 @@ export default function Terms() {
             Trexco in its entire discretion deems unsuitable for transportation.
           </p>
           <p>7.7.3 Loading area is not accessible or suitable for loading.</p>
-          <ol start="8">
+          <ol>
             <p> Delivery</p>
           </ol>
           <p>
@@ -317,7 +318,7 @@ export default function Terms() {
             8.7 - The Customer shall at all times act in good faith in its
             dealings with Trexco.
           </p>
-          <ol start="9">
+          <ol>
             <li> Liability&nbsp;</li>
           </ol>
           <p>
@@ -342,7 +343,7 @@ export default function Terms() {
             other claims for consequential compensation whatsoever (howsoever
             caused) which arise out of or in connection with the Contract.
           </p>
-          <ol start="10">
+          <ol>
             <p> Force Majeure</p>
           </ol>
           <p>
@@ -362,7 +363,7 @@ export default function Terms() {
             otherwise), costs, expenses or other claims for consequential
             compensation whatsoever (howsoever caused) as a result.&nbsp;
           </p>
-          <ol start="11">
+          <ol>
             <li> Parties and Subcontractors&nbsp;</li>
           </ol>
           <p>
@@ -383,7 +384,7 @@ export default function Terms() {
             11.3 -Trexco may in its absolute discretion subcontract all or any
             part of the Services to a third party.
           </p>
-          <ol start="12">
+          <ol>
             <p> Severability&nbsp;</p>
           </ol>
           <p>
@@ -398,7 +399,7 @@ export default function Terms() {
             deleted, the Term shall apply with whatever modification is
             necessary to give effect to the commercial intentions of Trexco.
           </p>
-          <ol start="13">
+          <ol>
             <p> Waiver&nbsp;</p>
           </ol>
           <p>
@@ -410,7 +411,7 @@ export default function Terms() {
             shall prevent any further exercise of the right, power or remedy or
             the exercise of another right, power or remedy,
           </p>
-          <ol start="14">
+          <ol>
             <p> Third Party Rights&nbsp;</p>
           </ol>
           <p>
@@ -418,7 +419,7 @@ export default function Terms() {
             right to enforce any Term of Contract which that person would not
             have had but for the Contracts (Rights of Third Parties) Act 1999.
           </p>
-          <ol start="15">
+          <ol>
             <p> Governing Law and Jurisdiction&nbsp;</p>
           </ol>
           <p>
@@ -432,7 +433,7 @@ export default function Terms() {
             these purposes, each party irrevocably submits to the jurisdiction
             of the courts of England.
           </p>
-          <ol start="16">
+          <ol>
             <li> Notice&nbsp;</li>
           </ol>
           <p>

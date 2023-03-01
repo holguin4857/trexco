@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Link from "next/link";
+
 
 export default function Privacy() {
   return (
@@ -137,10 +139,8 @@ export default function Privacy() {
               <p>
                 Whenever you are asked to fill in a form on the website, and if
                 you prefer for us not to use that information for direct
-                marketing purposes, please write email us at&nbsp;
-                <a href="mailto:info@trexco.net" data-auto-recognition="true">
-                  info@trexco.net
-                </a>
+                marketing purposes, please write email us at&nbsp;info@trexco.net
+                
               </p>
             </li>
           </ul>
