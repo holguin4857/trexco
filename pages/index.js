@@ -15,13 +15,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className="container">
+      <div className="container">
         <div className="content">
-          <h1>the easy way to ship worldwide</h1>
+          <h1>Ship Worldwide with trexco</h1>
+
           <p>
-            trexco is a practical and affordable shipping solution, located in
-            the UK and focused on sea and air transport to the US, Canada,
-            Mexico and South America.
+            Based in the UK, we specialise in sea and air transport to the US,
+            Canada, Mexico and South America. Let us handle your shipping needs
+            and get your cargo delivered hassle-free. Choose trexco for a
+            flexible and cost-effective shipping experience.
           </p>
           <button className="button">
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
@@ -29,17 +31,14 @@ export default function Home() {
             </Link>
           </button>
         </div>
-        <div className="image">
-          <Image
-            src="/images/container1.png"
-            alt="loading"
-            width={600}
-            height={466.5}
-          />
-        </div>
-      </section>
+      </div>
 
-      <section className="column-3">
+      <h1 className="container-3">
+        simplify your shipping by using an easy, convenient way to pack, store,
+        and move your cargo. see how it works:
+      </h1>
+
+      <div className="column-3">
         <div className="column">
           <Image
             src="/images/man-compu-cat-round.webp"
@@ -79,41 +78,62 @@ export default function Home() {
             pallet truck and it will get shipped to your destination.
           </p>
         </div>
-      </section>
+      </div>
 
-      <section className="container-2">
-        <div className="content-2">
-          <h2>
-            Trexco have simplified shipping by using an easy, convenient way to
-            pack, store, and move your cargo - all at the same time!
-          </h2>
+      <div className="container">
+        <div className="image">
+          <Image
+            src="/images/man-and-truck.png"
+            alt="loading"
+            width={700}
+            height={400}
+          />
         </div>
-      </section>
-
-      <section className="container">
         <div className="content">
-          <h1>how it works</h1>
+          <h1>The Trexx Box</h1>
           <p>
-            We offer do-it-yourself shipping options, for those who might be
-            looking for an easy, affordable, efficient, way to ship.
+            When it comes to shipping big and heavy objects, use our
+            easy-to-assemble pallet boxes, These innovative boxes are designed
+            to the specifications of a standard shipping pallet 120 x 100 cm and
+            come in two different heights 110 and 210 cm.
           </p>
-          <button className="button">
-            <Link href="https://trexco.involve.me/trexco-personalized-quote">
-              Book now
-            </Link>
-          </button>
+          <p>
+            With a maximum weight capacity of 600 kg, our pallet boxes are the
+            perfect solution for your shipping needs. And the best part? We can
+            send them to you for self-pack and send them to your country of
+            destination either by sea or air, so you can get your goods where
+            they need to go quickly and efficiently.
+          </p>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="content">
+          <h1>Container shipping</h1>
+          <p>Affordable and Flexible Container Shipping Options for you</p>
+          <p>
+            At trexco , we understand that everyone is different, which is why
+            we offer efficient and reliable container shipping services that are
+            tailored to meet your specific needs.
+          </p>
+          <p>
+            We have 17 years of experience as freight forwarders, and we are
+            commited to providing you the highest level of service and support.
+            From start to finish, we will be there to ensure that your cargo
+            arrives at its destination on time and in excellent condition.
+          </p>
         </div>
         <div className="image">
           <Image
-            src="/images/man-compu-cat-round.png"
+            src="/images/container1.png"
             alt="loading"
-            width={600}
-            height={337.5}
+            width={500}
+            height={400}
           />
         </div>
-      </section>
+      </div>
 
-      <section className="container">
+      <div className="container">
         <div className="content">
           <h1>shipping with confidence</h1>
           <p>
@@ -121,8 +141,13 @@ export default function Home() {
             around the world, from air, road or sea shipment. We have over 17
             years of experience as freight forwarders.
           </p>
+          <button className="button">
+            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+              Book now
+            </Link>
+          </button>
         </div>
-      </section>
+      </div>
     </>
   );
 }
