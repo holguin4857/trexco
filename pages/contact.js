@@ -14,10 +14,10 @@ export default function Contact() {
 
       <section className="container">
         <div className="content">
-          <li>Address: unit 122, Access House, 61 Willow walk</li>
-          <li>London, SE1 5SF, UK</li>
-          <li>Tel: +44 020 7096 1031, +44 020 7097 2265 </li>
-          <li>Email: hello@trexco.net</li>
+          <p>trexco: unit 122, Access House, 61 Willow walk</p>
+          <p>London, SE1 5SF, UK</p>
+          <p>Tel: +44 020 7096 1031, +44 020 7097 2265 </p>
+          <p>Email: hello@trexco.net</p>
           <p></p>
           <button className="button">
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
