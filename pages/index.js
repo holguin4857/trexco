@@ -33,10 +33,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h1 className="container-3">
-        simplify your shipping by using an easy, convenient way to pack, store,
-        and move your cargo. see how it works:
-      </h1>
+      
 
       <div className="column-3">
         <div className="column">
