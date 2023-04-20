@@ -80,8 +80,8 @@ export default function Home() {
           <Image
             src="/images/man-and-truck.png"
             alt="loading"
-            width={700}
-            height={400}
+            width={750}
+            height={422}
           />
         </div>
         <div className="content">
@@ -122,8 +122,8 @@ export default function Home() {
           <Image
             src="/images/container1.png"
             alt="loading"
-            width={500}
-            height={400}
+            width={640}
+            height={498}
           />
         </div>
       </div>
