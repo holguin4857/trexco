@@ -12,11 +12,6 @@ export default function How() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="container-3">
-        simplify your shipping by using an easy, convenient way to pack, store,
-        and move your cargo. see how it works:
-      </h1>
-
       <section className="column-3">
         <div className="column">
           <Image
@@ -61,6 +56,7 @@ export default function How() {
 
       <section className="container">
         <div className="content">
+          <h2>How we make a difference</h2>
           <p>
             Trexco offers do-it-yourself shipping options, for those who might
             be looking for an easy, affordable, efficient, way to ship.

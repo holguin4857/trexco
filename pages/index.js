@@ -33,8 +33,6 @@ export default function Home() {
         </div>
       </div>
 
-      
-
       <div className="column-3">
         <div className="column">
           <Image
@@ -87,7 +85,7 @@ export default function Home() {
           />
         </div>
         <div className="content">
-          <h1>The Trexx Box</h1>
+          <h2>The Trexx Box</h2>
           <p>
             When it comes to shipping big and heavy objects, use our
             easy-to-assemble pallet boxes, These innovative boxes are designed
@@ -106,7 +104,7 @@ export default function Home() {
 
       <div className="container">
         <div className="content">
-          <h1>Container shipping</h1>
+          <h2>Container shipping</h2>
           <p>Affordable and Flexible Container Shipping Options for you</p>
           <p>
             At trexco , we understand that everyone is different, which is why

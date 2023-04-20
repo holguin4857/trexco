@@ -14,7 +14,7 @@ export default function About() {
 
       <section className="container">
         <div className="content">
-          <h1>about us</h1>
+          <h2>Reasons to count on us</h2>
           <p>
             Our journey as freight forwarders began in 2006, specializing in
             shipping for the diplomatic community in the UK. However, we quickly
@@ -51,17 +51,6 @@ export default function About() {
           <p>
             Trexco have simplified shipping by using an easy, convenient way to
             pack, store, and move your cargo - all at the same time!
-          </p>
-        </div>
-      </section>
-
-      <section className="container">
-        <div className="content">
-          <h1>shipping with confidence</h1>
-          <p>
-            We have secured competitive shipping rates to many destinations
-            around the world, from air, road or sea shipment. We have over 17
-            years of experience as freight forwarders.
           </p>
         </div>
       </section>
