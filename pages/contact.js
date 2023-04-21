@@ -15,7 +15,7 @@ export default function Contact() {
       <section className="container">
         <div className="content">
           <p>
-            Trexco: unit 122, Access House, 61 Willow walk, London, SE1 5SF, UK
+            Trexco International Limited: 4th Floor, 18 St Cross Street, London, EC1N 8UN, UK
           </p>
           <p>Tel: +44 020 7096 1031, +44 020 7097 2265 </p>
           <p>Email: hello@trexco.net</p>
