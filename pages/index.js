@@ -43,7 +43,7 @@ export default function Home() {
           <p>
             We pride ourselves on offering unmatched service and assistance for
             your shipping needs. From the beginning to the end of your the
-            journey, we're committed to ensuring timely delivery and maintaining
+            journey, we are committed to ensuring timely delivery and maintaining
             the excellent condition of your shipment.
           </p>
         </div>
