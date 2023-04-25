@@ -41,7 +41,8 @@
 
 .container .image {
   width: auto;
-  padding: 25px;
+  padding-right: 85px;
+  padding-left: 85px;
 }
 
 .container-2 {
