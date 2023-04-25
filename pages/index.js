@@ -17,13 +17,11 @@ export default function Home() {
 
       <div className="container">
         <div className="content">
-          <h1>Ship Worldwide with trexco</h1>
+          <h1>Uncomplicate your Shipping</h1>
 
           <p>
-            Based in the UK, we specialise in sea and air transport to the US,
-            Canada, Mexico and South America. Let us handle your shipping needs
-            and get your cargo delivered hassle-free. Choose trexco for a
-            flexible and cost-effective shipping experience.
+            Choose Trexco for Flexible, Cost-effective, and Reliable Transport of Pallets, Crates,
+            and Containers via Air, Sea, or Land
           </p>
           <button className="button">
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
