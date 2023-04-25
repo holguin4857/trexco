@@ -42,7 +42,7 @@ export default function Home() {
           </p>
           <p>
             We pride ourselves on offering unmatched service and assistance for
-            your shipping needs. From the beginning to the end of your cargo's
+            your shipping needs. From the beginning to the end of your cargo&apos;s
             journey, we're committed to ensuring timely delivery and maintaining
             the excellent condition of your shipment.
           </p>
