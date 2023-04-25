@@ -49,10 +49,10 @@ export default function Home() {
         </div>
         <div className="image">
           <Image
-            src="/images/container1.png"
+            src="/images/trexxbox.webp"
             alt="loading"
-            width={640}
-            height={498}
+            width={397}
+            height={394}
           />
         </div>
       </div>
