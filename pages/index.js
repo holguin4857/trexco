@@ -49,10 +49,10 @@ export default function Home() {
         </div>
         <div className="image">
           <Image
-            src="/images/trexxbox.webp"
+            src="/images/boxes-man-cat.webp"
             alt="loading"
-            width={397}
-            height={394}
+            width={500}
+            height={500}
           />
         </div>
       </div>
@@ -60,10 +60,10 @@ export default function Home() {
       <div className="container">
         <div className="image">
           <Image
-            src="/images/man-and-truck.png"
+            src="/images/box-cat.webp"
             alt="loading"
-            width={750}
-            height={422}
+            width={500}
+            height={500}
           />
         </div>
         <div className="content">

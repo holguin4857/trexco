@@ -38,22 +38,15 @@ export default function About() {
         </div>
         <div className="image">
           <Image
-            src="/images/box-and-cat-round.png"
+            src="/images/box-cat.webp"
             alt="loading"
-            width={600}
-            height={337.5}
+            width={500}
+            height={500}
           />
         </div>
       </section>
 
-      <section className="container-2">
-        <div className="content-2">
-          <p>
-            Trexco have simplified shipping by using an easy, convenient way to
-            pack, store, and move your cargo - all at the same time!
-          </p>
-        </div>
-      </section>
+     
     </>
   );
 }
