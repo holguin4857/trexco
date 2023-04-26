@@ -12,6 +12,17 @@ export default function How() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div className="container">
+        <div className="content">
+          <h2>How it works</h2>
+
+          <p>
+            Choose Trexco for Flexible, Cost-effective, and Reliable Transport
+            of Pallets, Crates, and Containers via Air, Sea, or Land
+          </p>
+        </div>
+      </div>
+
       <section className="column-3">
         <div className="column">
           <Image

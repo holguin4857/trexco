@@ -40,8 +40,8 @@ export default function About() {
           <Image
             src="/images/box-cat.webp"
             alt="loading"
-            width={500}
-            height={500}
+            width={550}
+            height={550}
           />
         </div>
       </section>

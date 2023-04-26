@@ -14,6 +14,7 @@ export default function Contact() {
 
       <section className="container">
         <div className="content">
+        <h2>Need help with your shipping, talk to us</h2>
           <p>Trexco International Limited</p>
           <p>4th Floor, 18 St Cross Street, London, EC1N 8UN, UK</p>
           <p>Tel: +44 020 7096 1031, +44 020 7097 2265 </p>
