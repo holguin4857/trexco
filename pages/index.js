@@ -188,7 +188,10 @@ export default function Home() {
           </p>
         </div>
         <div className="image1">
-          <Image src={container1} loading="lazy" />
+          <Image 
+          src={container1}
+          alt="loading" 
+          loading="lazy" />
         </div>
       </div>
 
