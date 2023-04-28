@@ -56,41 +56,41 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="row1">
-        <div class="column1">
-          <div class="card">
+      <div className="row1">
+        <div className="column1">
+          <div className="card">
             <p>
-              <i class="fa fa-user"></i>
+              <i className="fa fa-user"></i>
             </p>
             <h3>1700+</h3>
             <p>Crates Shipped by Air and Road</p>
           </div>
         </div>
 
-        <div class="column1">
-          <div class="card">
+        <div className="column1">
+          <div className="card">
             <p>
-              <i class="fa fa-check"></i>
+              <i className="fa fa-check"></i>
             </p>
             <h3>200+</h3>
             <p>Full containers shipped by sea</p>
           </div>
         </div>
 
-        <div class="column1">
-          <div class="card">
+        <div className="column1">
+          <div className="card">
             <p>
-              <i class="fa fa-smile-o"></i>
+              <i className="fa fa-smile-o"></i>
             </p>
             <h3>800+</h3>
             <p>Trexx-Boxes shipped by sea</p>
           </div>
         </div>
 
-        <div class="column1">
-          <div class="card">
+        <div className="column1">
+          <div className="card">
             <p>
-              <i class="fa fa-coffee"></i>
+              <i className="fa fa-coffee"></i>
             </p>
             <h3>3000+</h3>
             <p>Happy Clients</p>
