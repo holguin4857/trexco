@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+.image1 {
+  display: block;
+}
+
 .container .image {
   width: auto;
   padding-right: 75px;
@@ -67,6 +71,11 @@
 
   .image {
     display: none;
+  }
+
+  .image1 {
+    display: none;
+    layout: responsive;
   }
 
   .content h1 {

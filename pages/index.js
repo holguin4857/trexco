@@ -1,9 +1,7 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
-
-const inter = Inter({ subsets: ["latin"] });
+import container1 from "public/images/container1.png";
 
 export default function Home() {
   return (
@@ -43,8 +41,8 @@ export default function Home() {
           <p>
             We pride ourselves on offering unmatched service and assistance for
             your shipping needs. From the beginning to the end of your the
-            journey, we are committed to ensuring timely delivery and maintaining
-            the excellent condition of your shipment.
+            journey, we are committed to ensuring timely delivery and
+            maintaining the excellent condition of your shipment.
           </p>
         </div>
         <div className="image">
@@ -54,6 +52,48 @@ export default function Home() {
             width={550}
             height={550}
           />
+        </div>
+      </div>
+
+      <div class="row1">
+        <div class="column1">
+          <div class="card">
+            <p>
+              <i class="fa fa-user"></i>
+            </p>
+            <h3>1700+</h3>
+            <p>Crates Shipped by Air and Road</p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card">
+            <p>
+              <i class="fa fa-check"></i>
+            </p>
+            <h3>200+</h3>
+            <p>Full containers shipped by sea</p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card">
+            <p>
+              <i class="fa fa-smile-o"></i>
+            </p>
+            <h3>800+</h3>
+            <p>Trexx-Boxes shipped by sea</p>
+          </div>
+        </div>
+
+        <div class="column1">
+          <div class="card">
+            <p>
+              <i class="fa fa-coffee"></i>
+            </p>
+            <h3>3000+</h3>
+            <p>Happy Clients</p>
+          </div>
         </div>
       </div>
 
@@ -81,6 +121,11 @@ export default function Home() {
             destination either by sea or air, so you can get your goods where
             they need to go quickly and efficiently.
           </p>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <h2>How it works</h2>
         </div>
       </div>
 
@@ -142,13 +187,8 @@ export default function Home() {
             arrives at its destination on schedule and in excellent condition.
           </p>
         </div>
-        <div className="image">
-          <Image
-            src="/images/container1.png"
-            alt="loading"
-            width={640}
-            height={498}
-          />
+        <div className="image1">
+          <Image src={container1} loading="lazy" />
         </div>
       </div>
 
