@@ -51,6 +51,7 @@ export default function Home() {
             alt="loading"
             width={550}
             height={550}
+            priority={true}
           />
         </div>
       </div>
