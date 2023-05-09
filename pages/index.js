@@ -26,6 +26,11 @@ export default function Home() {
               Book now
             </Link>
           </button>
+          <button className="button1">
+            <Link href="contact">
+              Talk to an expert
+            </Link>
+          </button>
         </div>
       </div>
 
@@ -56,45 +61,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="row1">
-        <div className="column1">
-          <div className="card">
-            <p>
-              <i className="fa fa-user"></i>
-            </p>
-            <h3>1700+</h3>
-            <p>Crates Shipped by Air and Road</p>
-          </div>
+      <div className="cards">
+        <div className="card">
+          <h3>1700+</h3>
+          <p>Crates Shipped by Air and Road</p>
         </div>
-
-        <div className="column1">
-          <div className="card">
-            <p>
-              <i className="fa fa-check"></i>
-            </p>
-            <h3>200+</h3>
-            <p>Full containers shipped by sea</p>
-          </div>
+        <div className="card">
+          <h3>300+</h3>
+          <p>Full containers shipped by sea</p>
         </div>
-
-        <div className="column1">
-          <div className="card">
-            <p>
-              <i className="fa fa-smile-o"></i>
-            </p>
-            <h3>800+</h3>
-            <p>Trexx-Boxes shipped by sea</p>
-          </div>
-        </div>
-
-        <div className="column1">
-          <div className="card">
-            <p>
-              <i className="fa fa-coffee"></i>
-            </p>
-            <h3>3000+</h3>
-            <p>Happy Clients</p>
-          </div>
+        <div className="card">
+          <h3>4000+</h3>
+          <p>Happy Clients</p>
         </div>
       </div>
 
@@ -189,10 +167,7 @@ export default function Home() {
           </p>
         </div>
         <div className="image1">
-          <Image 
-          src={container1}
-          alt="loading" 
-          loading="lazy" />
+          <Image src={container1} alt="loading" loading="lazy" />
         </div>
       </div>
 

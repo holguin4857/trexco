@@ -1,7 +1,7 @@
 import '@/styles/navbar.css'
 import '@/styles/layout.css'
 import '@/styles/footer.css'
-import '@/styles/counter.css'
+import '@/styles/grid.css'
 import { Poppins } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
