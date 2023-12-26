@@ -26,6 +26,26 @@
   margin-bottom: 40px;
 }
 
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 1%;
+  margin: 50px 50px 50px 50px;
+  border-radius: 25px;
+  background-color: #56c5e0;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 1%;
+  margin: 50px 50px 50px 50px;
+  border-radius: 25px;
+  background-color: #3fc4aa;
+}
+
 .button {
   background-color: #29424a;
   width: 300px;

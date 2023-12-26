@@ -27,9 +27,7 @@ export default function Home() {
             </Link>
           </button>
           <button className="button1">
-            <Link href="contact">
-              Talk to an expert
-            </Link>
+            <Link href="contact">Talk to an expert</Link>
           </button>
         </div>
       </div>
@@ -168,6 +166,100 @@ export default function Home() {
         </div>
         <div className="image1">
           <Image src={container1} alt="loading" loading="lazy" />
+        </div>
+      </div>
+
+      <div className="container-2">
+        <div className="content">
+          <p>
+            "Trexco surpassed my expectations! My TrexxBox arrived faster than
+            expected and their customer support was top-notch. I am thrilled to
+            have found a reliable shipping service I can trust. Highly
+            recommended!" <br />
+            <br /> Alex McGee.
+          </p>
+        </div>
+      </div>
+      <div className="container-3">
+        <div className="content">
+          <p>
+            " Les cuento que nuestras cosas finalmente ya están en mi apto en
+            Bogota and so far so good… nada se ha partido!!! Todavía faltan
+            muchas cajas por abrir pero estoy seguro que todo estará como salio
+            de mi casa en Londres. En nombre de Juliana y mío les doy las
+            gracias por todo su apoyo y esfuerzo en esto. Nosotros quedamos muy
+            contentos con su servicio. " <br />
+            <br /> Daniel Sarabia Mancini.
+          </p>
+        </div>
+      </div>
+      <div className="container-2">
+        <div className="content">
+          <p>
+            "Effortless, affordable, and dependable - that is what you get with
+            Trexco. Their streamlined process and constant communication kept me
+            worry-free. I'm now a loyal customer for life!" <br />
+            <br /> Rodrigo Diaz
+          </p>
+        </div>
+      </div>
+      <div className="container-3">
+        <div className="content">
+          <p>
+            "Trexco is a game changer in the world of shipping. With their
+            prompt deliveries, competitive rates, and exceptional customer care,
+            they have made shipping a breeze!" <br />
+            <br />
+            Enrico Vicentini
+          </p>
+        </div>
+      </div>
+      <div className="container-2">
+        <div className="content">
+          <p>
+            "As a small business owner, I cannot stress enough how much Trexco
+            has improved my shipping experience. Their affordable rates, speedy
+            deliveries, and proactive communication make them my go-to choice
+            for all my shipping needs." <br />
+            <br />
+            Bernardita Riesco Binimelis
+          </p>
+        </div>
+      </div>
+      <div className="container-3">
+        <div className="content">
+          <p>
+            "Trexco has revolutionized container shipping for me. Their
+            expertise in handling large cargo, coupled with their commitment to
+            punctuality and customer satisfaction, makes them the only choice
+            for my business." <br />
+            <br />
+            Ian Campbell
+          </p>
+        </div>
+      </div>
+      <div className="container-2">
+        <div className="content">
+          <p>
+            "Trexco container shipping service is unparalleled. They provided a
+            secure and cost-effective solution for my business, ensuring my
+            cargo arrived safely and on time. Highly recommended for all your
+            container shipping needs!" <br />
+            <br />
+            Helena Rosa Menendez
+          </p>
+        </div>
+      </div>
+      <div className="container-3">
+        <div className="content">
+          <p>
+            "I was nervous about shipping my large containers overseas, but
+            Trexco put my mind at ease. Their efficient logistics, reasonable
+            pricing, and excellent customer service made the process seamless. I
+            wholeheartedly recommend them for container shipping!" <br />
+            <br />
+            Armando Olave
+          </p>
         </div>
       </div>
 
