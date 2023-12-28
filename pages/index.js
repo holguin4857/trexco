@@ -196,9 +196,10 @@ export default function Home() {
       <div className="container-2">
         <div className="content">
           <p>
-            Effortless, affordable, and dependable - that is what you get with
-            Trexco. Their streamlined process and constant communication kept me
-            worry-free. I am now a loyal customer for life! <br />
+            Gracias a TREXCO, importamos varios tractores con facilidad. Su
+            servicio de compra y envío desde el Reino Unido a Bolivia fue
+            excepcional, cuidando cada detalle desde la selección hasta la
+            entrega <br />
             <br /> Rodrigo Diaz
           </p>
         </div>
@@ -206,9 +207,11 @@ export default function Home() {
       <div className="container-3">
         <div className="content">
           <p>
-            Trexco is a game changer in the world of shipping. With their
-            prompt deliveries, competitive rates, and exceptional customer care,
-            they have made shipping a breeze! <br />
+            TREXCO ha sido fundamental en la importación de piezas para nuestros
+            camiones. Su atención al detalle y conocimiento en logística
+            garantizó un proceso sin complicaciones. Recomendamos ampliamente
+            sus servicios.
+            <br />
             <br />
             Enrico Vicentini
           </p>
@@ -229,19 +232,19 @@ export default function Home() {
       <div className="container-3">
         <div className="content">
           <p>
-            Trexco has revolutionized container shipping for me. Their
-            expertise in handling large cargo, coupled with their commitment to
-            punctuality and customer satisfaction, makes them the only choice
-            for my business. <br />
+            Trexco has been helping us to ship from our suppliers in Cornwall to
+            Posorja and Quito, Ecuador. Their expertise in handling large cargo,
+            coupled with their commitment to punctuality and customer
+            satisfaction, makes them the only choice for my business. <br />
             <br />
-            Ian Campbell
+            Peter Taylor
           </p>
         </div>
       </div>
       <div className="container-2">
         <div className="content">
           <p>
-            Trexco container shipping service is unparalleled. They provided a
+            Trexco container shipping service is very good. They provided a
             secure and cost-effective solution for my business, ensuring my
             cargo arrived safely and on time. Highly recommended for all your
             container shipping needs! <br />
@@ -253,12 +256,13 @@ export default function Home() {
       <div className="container-3">
         <div className="content">
           <p>
-            I was nervous about shipping my large containers overseas, but
-            Trexco put my mind at ease. Their efficient logistics, reasonable
-            pricing, and excellent customer service made the process seamless. I
-            wholeheartedly recommend them for container shipping! <br />
+            I was nervous about shipping my household goods to Chile in a large
+            container, but Trexco put my mind at ease. Their efficient
+            logistics, reasonable pricing, and excellent customer service made
+            the process seamless. I wholeheartedly recommend them for container
+            shipping! <br />
             <br />
-            Armando Olave
+            Pablo Torres
           </p>
         </div>
       </div>
