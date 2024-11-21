@@ -1,7 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import container1 from "public/images/container1.png";
+import hero from "../styles/hero.module.css";
+import features from "../styles/features.module.css";
+import testimonials from "../styles/testimonials.module.css";
+import milestones from "../styles/milestones.module.css";
+import why from "../styles/why.module.css";
+import services from "../styles/services.module.css";
+import buttons from "../styles/buttons.module.css";
 
 export default function Home() {
   return (
@@ -13,164 +19,218 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container">
-        <div className="content">
+      <div className={hero.container}>
+        <div className={hero.content}>
           <h1>Uncomplicate your Shipping</h1>
 
           <p>
             Choose Trexco for Flexible, Cost-effective, and Reliable Transport
-            of Pallets, Crates, and Containers via Air, Sea, or Land
+            of Flat Racks, Containers and Pallets via Air, Sea or Land
           </p>
-          <button className="button">
+          <button className={hero.button}>
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
               Book now
             </Link>
           </button>
-          <button className="button1">
+          <button className={hero.button1}>
             <Link href="contact">Talk to an expert</Link>
           </button>
         </div>
       </div>
 
-      <div className="container">
-        <div className="content">
+      <section className={services.columns}>
+        <article className={services.column}>
+          <Image
+            src="/images/flatrack.png"
+            alt="Flatrack"
+            width={200}
+            height={200}
+          />
+          <h2>Flat Racks</h2>
+          <p>
+            Ship your heavy machinery with our reliable flat rack service. Safe,
+            efficient, and customized to your needs.
+          </p>
+        </article>
+        <article className={services.column}>
+          <Image
+            src="/images/cargoship.png"
+            alt="Ship"
+            width={200}
+            height={200}
+          />
+          <h2>Shipping Containers</h2>
+          <p>
+            Streamline your shipping process with our reliable container
+            solutions. Efficient, cost-effective, and delivered on time.
+          </p>
+        </article>
+        <article className={services.column}>
+          <Image
+            src="/images/airplane.png"
+            alt="plane"
+            width={200}
+            height={200}
+          />
+          <h2>Air Freight & LCL</h2>
+          <p>
+            Shipping smaller volumes? Airfreight and LCL are the cost-effective
+            choice. Maximize your budget and minimize your shipping costs.
+          </p>
+        </article>
+      </section>
+
+      <div className={features.container}>
+        <div className={features.content}>
           <h2>Trust Your Shipments to the Experts</h2>
           <p>
-            Experience personalized, high-quality shipping services with our 17
+            Experience personalized, high-quality shipping services with our 19
             years of expertise. We provide exceptional shipping rates for air,
             road, and sea freight, connecting you to destinations around the
             globe while ensuring your unique requirements are met.
           </p>
-          <p>
-            We pride ourselves on offering unmatched service and assistance for
-            your shipping needs. From the beginning to the end of your the
-            journey, we are committed to ensuring timely delivery and
-            maintaining the excellent condition of your shipment.
-          </p>
-        </div>
-        <div className="image">
-          <Image
-            src="/images/boxes-man-cat.webp"
-            alt="loading"
-            width={550}
-            height={550}
-            priority={true}
-          />
         </div>
       </div>
 
-      <div className="cards">
-        <div className="card">
+      <div className={milestones.cards}>
+        <div className={milestones.card}>
           <h3>1700+</h3>
           <p>Crates Shipped by Air and Road</p>
         </div>
-        <div className="card">
+        <div className={milestones.card}>
           <h3>300+</h3>
           <p>Full containers shipped by sea</p>
         </div>
-        <div className="card">
+        <div className={milestones.card}>
           <h3>4000+</h3>
           <p>Happy Clients</p>
         </div>
       </div>
 
-      <div className="container">
+      <div className={why.container}>
+        <div className={why.content}>
+          <h2>Why choose trexco?</h2>
+
+          <ul>
+            <li>
+              <strong>Expertise in Heavy Machinery:</strong> We have extensive
+              experience in handling a wide range of equipment, including
+              tractors, harvesters, excavators, loaders, and more.
+            </li>
+            <li>
+              <strong>Focus on Chile & Mexico:</strong> We possess in-depth
+              knowledge of the agricultural and construction sectors in these
+              countries, ensuring your machinery arrives ready to operate.
+            </li>
+            <li>
+              <strong>Comprehensive Service:</strong> We manage the entire
+              shipping process, from collection and loading to customs clearance
+              and delivery, taking the complexity out of international
+              transport.
+            </li>
+            <li>
+              <strong>Personalized Attention:</strong> We provide dedicated
+              support and clear communication throughout the journey, ensuring a
+              smooth and stress-free experience.
+            </li>
+            <li>
+              <strong>Competitive Rates:</strong> We offer cost-effective
+              solutions tailored to your specific needs and budget.
+            </li>
+          </ul>
+
+          <button className={hero.button1}>
+            <Link href="contact">Talk to an expert</Link>
+          </button>
+        </div>
+      </div>
+
+      <div className={features.container}>
         <div className="image">
           <Image
-            src="/images/box-cat.webp"
-            alt="loading"
-            width={550}
-            height={550}
+            src="/images/flatrack.png"
+            alt="flatrack"
+            width={500}
+            height={500}
           />
         </div>
-        <div className="content">
-          <h2>The Trexx Box</h2>
+        <div className={features.content}>
+          <h2>Flat Racks</h2>
           <p>
-            When it comes to shipping big and heavy objects, use our
-            easy-to-assemble pallet boxes, These innovative boxes are designed
-            to the specifications of a standard shipping pallet 120 x 100 cm and
-            come in two different heights 110 and 210 cm.
+            Transport your heavy machinery with our specialised flat rack
+            service. We handle everything, no matter how big or heavy. We
+            utilise high capacity cranes for precise loading and expert
+            handling, guaranteeing your valuable equipment arrives in perfect
+            condition.
           </p>
           <p>
-            With a maximum weight capacity of 600 kg, our pallet boxes are the
-            perfect solution for your shipping needs. And the best part? We can
-            send them to you for self-pack and send them to your country of
-            destination either by sea or air, so you can get your goods where
-            they need to go quickly and efficiently.
-          </p>
-        </div>
-      </div>
-      <div className="container">
-        <div className="content">
-          <h2>How it works</h2>
-        </div>
-      </div>
-
-      <div className="column-3">
-        <div className="column">
-          <Image
-            src="/images/man-compu-cat-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Place an order</h2>
-          <p>
-            Pick the trexco pallet boxes you need for your shipment and book the
-            delivery and collection date.
-          </p>
-        </div>
-        <div className="column">
-          <Image
-            src="/images/box-and-cat-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Start packing</h2>
-          <p>
-            Pack your shipment on the Trexx pallet boxes, start packing the
-            heavy stuff first and fragile on the top, seal and label the box.
-          </p>
-        </div>
-        <div className="column">
-          <Image
-            src="/images/man-and-truck-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Arrange collection</h2>
-          <p>
-            Choose the collection date a driver will load your Trexx-Box with a
-            pallet truck and it will get shipped to your destination.
+            Our flat rack service includes a meticulous cargo survey to ensure
+            secure fastening and safe transportation of your heavy machinery.Our
+            experienced team and trusted partners guarantee the safe and
+            efficient delivery of your valuable equipment, no matter how
+            oversized or complex.
           </p>
         </div>
       </div>
 
-      <div className="container">
-        <div className="content">
-          <h2>Container shipping</h2>
-          <p>Affordable and Flexible Container Shipping Options for you</p>
+      <div className={features.container}>
+        <div className={features.content}>
+          <h2>Shipping containers</h2>
           <p>
-            At trexco , we understand that everyone is different, which is why
-            we offer efficient and reliable container shipping services that are
-            tailored to meet your specific needs.
+            Ship your cargo with confidence using our reliable container
+            service. We offer a wide range of container types and sizes to
+            accommodate everything from personal belongings to specialised
+            equipment. Whether you need a standard 40/20' container, High cube,
+            open top, refrigerated, or something more unique, we have the
+            perfect solution for your needs.
           </p>
           <p>
-            We have 17 years of experience as freight forwarders, and we are
-            commited to providing you the highest level of service and support.
-            From start to finish, we will be there to ensure that your container
-            arrives at its destination on schedule and in excellent condition.
+            Our experienced team handles every aspect of the shipping process,
+            ensuring your cargo is secure, efficiently transported, and
+            delivered on time. With competitive rates and personalised service,
+            we make importing easy and without any hassle.
           </p>
         </div>
-        <div className="image1">
-          <Image src={container1} alt="loading" loading="lazy" />
+        <div className="image">
+          <Image
+            src="/images/cargoship.png"
+            alt="Container ship"
+            width={500}
+            height={500}
+            placeholder="blur"
+            blurDataURL="/images/ship.png"
+          />
         </div>
       </div>
 
-      <div className="container-2">
-        <div className="content">
+      <div className={features.container}>
+        <div className="image">
+          <Image
+            src="/images/airplane.png"
+            alt="cargo plane"
+            width={500}
+            height={500}
+          />
+        </div>
+        <div className={features.content}>
+          <h2>Air freight</h2>
+          <p>
+            When speed matters, choose our air freight service. We offer swift
+            and reliable transport for your urgent cargo. Whether a small
+            package or a larger shipment, we ensure your goods arrive quickly
+            and efficiently, keeping your business moving.
+          </p>
+          <p>
+            Our experienced team handles every detail, from pickup to delivery,
+            providing personalized service and competitive rates. With our
+            global reach and commitment to excellence, you can trust us to get
+            your cargo where it needs to be, on time and in perfect condition.
+          </p>
+        </div>
+      </div>
+
+      <div className={testimonials.container1}>
+        <div className={testimonials.content}>
           <p>
             Trexco surpassed my expectations! My TrexxBox arrived faster than
             expected and their customer support was top-notch. I am thrilled to
@@ -180,8 +240,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-3">
-        <div className="content">
+      <div className={testimonials.container2}>
+        <div className={testimonials.content}>
           <p>
             Les cuento que nuestras cosas finalmente ya están en mi apto en
             Bogota and so far so good… nada se ha partido!!! Todavía faltan
@@ -193,8 +253,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-2">
-        <div className="content">
+      <div className={testimonials.container1}>
+        <div className={testimonials.content}>
           <p>
             Gracias a TREXCO, importamos varios tractores con facilidad. Su
             servicio de compra y envío desde el Reino Unido a Bolivia fue
@@ -204,8 +264,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-3">
-        <div className="content">
+      <div className={testimonials.container2}>
+        <div className={testimonials.content}>
           <p>
             TREXCO ha sido fundamental en la importación de piezas para nuestros
             camiones. Su atención al detalle y conocimiento en logística
@@ -217,8 +277,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-2">
-        <div className="content">
+      <div className={testimonials.container1}>
+        <div className={testimonials.content}>
           <p>
             As a small business owner, I cannot stress enough how much Trexco
             has improved my shipping experience. Their affordable rates, speedy
@@ -229,8 +289,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-3">
-        <div className="content">
+      <div className={testimonials.container2}>
+        <div className={testimonials.content}>
           <p>
             Trexco has been helping us to ship from our suppliers in Cornwall to
             Posorja and Quito, Ecuador. Their expertise in handling large cargo,
@@ -241,8 +301,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-2">
-        <div className="content">
+      <div className={testimonials.container1}>
+        <div className={testimonials.content}>
           <p>
             Trexco container shipping service is very good. They provided a
             secure and cost-effective solution for my business, ensuring my
@@ -253,8 +313,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-3">
-        <div className="content">
+      <div className={testimonials.container2}>
+        <div className={testimonials.content}>
           <p>
             I was nervous about shipping my household goods to Chile in a large
             container, but Trexco put my mind at ease. Their efficient
@@ -267,15 +327,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container">
-        <div className="content">
-          <h1>shipping with confidence</h1>
+      <div className={features.container}>
+        <div className={features.content}>
+          <h2>shipping with confidence</h2>
           <p>
             We have secured competitive shipping rates to many destinations
-            around the world, from air, road or sea shipment. We have over 17
+            around the world, from air, road or sea shipment. We have over 19
             years of experience as freight forwarders.
           </p>
-          <button className="button">
+          <button className={buttons.button}>
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
               Book now
             </Link>

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+import why from "../styles/why.module.css";
+import buttons from "../styles/buttons.module.css";
 
 export default function How() {
   return (
@@ -12,81 +13,46 @@ export default function How() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container">
-        <div className="content">
-          <h2>How it works</h2>
+      <div className={why.container}>
+        <div className={why.content}>
+          <h2>Why choose trexco?</h2>
 
-          <p>
-            Choose Trexco for Flexible, Cost-effective, and Reliable Transport
-            of Pallets, Crates, and Containers via Air, Sea, or Land
-          </p>
-        </div>
-      </div>
+          <ul>
+            <li>
+              <strong>Expertise in Heavy Machinery:</strong> We have extensive
+              experience in handling a wide range of equipment, including
+              tractors, harvesters, excavators, loaders, and more.
+            </li>
+            <li>
+              <strong>Focus on Chile & Mexico:</strong> We possess in-depth
+              knowledge of the agricultural and construction sectors in these
+              countries, ensuring your machinery arrives ready to operate.
+            </li>
+            <li>
+              <strong>Comprehensive Service:</strong> We manage the entire
+              shipping process, from collection and loading to customs clearance
+              and delivery, taking the complexity out of international
+              transport.
+            </li>
+            <li>
+              <strong>Personalized Attention:</strong> We provide dedicated
+              support and clear communication throughout the journey, ensuring a
+              smooth and stress-free experience.
+            </li>
+            <li>
+              <strong>Competitive Rates:</strong> We offer cost-effective
+              solutions tailored to your specific needs and budget.
+            </li>
+          </ul>
 
-      <section className="column-3">
-        <div className="column">
-          <Image
-            src="/images/man-compu-cat-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Place an order</h2>
-          <p>
-            Pick the trexco pallet boxes you need for your shipment and book the
-            delivery and collection date.
-          </p>
-        </div>
-        <div className="column">
-          <Image
-            src="/images/box-and-cat-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Start packing</h2>
-          <p>
-            Pack your shipment on the Trexx pallet boxes, start packing the
-            heavy stuff first and fragile on the top, seal and label the box.
-          </p>
-        </div>
-        <div className="column">
-          <Image
-            src="/images/man-and-truck-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Arrange collection</h2>
-          <p>
-            Choose the collection date a driver will load your Trexx-Box with a
-            pallet truck and it will get shipped to your destination.
-          </p>
-        </div>
-      </section>
+          <p></p>
+          <p></p>
 
-      <section className="container">
-        <div className="content">
-          <h2>How we make a difference</h2>
-          <p>
-            Trexco offers do-it-yourself shipping options, for those who might
-            be looking for an easy, affordable, efficient, way to ship.
-          </p>
-          <button className="button">
-            <Link href="https://trexco.involve.me/trexco-personalized-quote">
-              Book now
-            </Link>
+          <button className={buttons.button1}>
+            <Link href="contact">Talk to an expert</Link>
           </button>
         </div>
-        <div className="image">
-          <Image
-            src="/images/container1.png"
-            alt="loading"
-            width={600}
-            height={466.5}
-          />
-        </div>
-      </section>
+      </div>
     </>
   );
 }

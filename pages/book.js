@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import hero from "../styles/hero.module.css";
+import buttons from "../styles/buttons.module.css";
 
 export default function Book() {
   return (
@@ -12,15 +14,27 @@ export default function Book() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className="container">
-        <div className="content">
-          <h1>Book now</h1>
+      <section className={hero.container}>
+        <div className={hero.content}>
+          <h2>Ready to Ship? Start Your Booking Here</h2>
+          <p></p>
+
           <p>
-            trexco is a practical and affordable shipping solution to all over
-            the world, sending from the UK and Spain to the US, Canada, Mexico,
-            Europe, Asia, Africa and South America.
+          Don't waste time navigating complicated booking processes. Our
+            streamlined form makes it simple to request a quote and book your
+            shipment. We're here to answer any questions you may have along the
+            way.
           </p>
-          <button className="button">
+          <p>
+            - Address: Trexco International Limited, 4th Floor, 18 St Cross
+            Street, London, EC1N 8UN, UK
+          </p>
+          <p>- Tel: +44 020 7096 1031, +44 020 7097 2265 </p>
+          <p>- Email: info@trexco.net</p>
+          <p></p>
+         
+
+          <button className={buttons.button}>
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
               Book now
             </Link>
@@ -28,73 +42,11 @@ export default function Book() {
         </div>
         <div className="image">
           <Image
-            src="/images/box-and-cat-round.png"
+            src="/images/airplane.png"
             alt="loading"
-            width={600}
-            height={337.5}
+            width={550}
+            height={550}
           />
-        </div>
-      </section>
-
-      <section className="container-2">
-        <div className="content-2">
-          <p>
-            Trexco have simplified shipping by using an easy, convenient way to
-            pack, store, and move your cargo - all at the same time!
-          </p>
-        </div>
-      </section>
-
-      <section className="column-3">
-        <div className="column">
-          <Image
-            src="/images/man-compu-cat-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Place an order</h2>
-          <p>
-            Pick the trexco pallet boxes you need for your shipment and book the
-            delivery and collection date.
-          </p>
-        </div>
-        <div className="column">
-          <Image
-            src="/images/box-and-cat-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Start packing</h2>
-          <p>
-            Pack your shipment on the Trexx pallet boxes, start packing the
-            heavy stuff first and fragile on the top, seal and label the box.
-          </p>
-        </div>
-        <div className="column">
-          <Image
-            src="/images/man-and-truck-round.webp"
-            alt="loading"
-            width={200}
-            height={200}
-          />
-          <h2>Arrange collection</h2>
-          <p>
-            Choose the collection date a driver will load your Trexx-Box with a
-            pallet truck and it will get shipped to your destination.
-          </p>
-        </div>
-      </section>
-
-      <section className="container">
-        <div className="content">
-          <h1>shipping with confidence</h1>
-          <p>
-            We have secured competitive shipping rates to many destinations
-            around the world, from air, road or sea shipment. We have over 17
-            years of experience as freight forwarders.
-          </p>
         </div>
       </section>
     </>

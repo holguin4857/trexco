@@ -25,7 +25,7 @@ export default function Footer () {
               <div className="footer-col">
                 <h4>Booking</h4>
                 <ul>
-                  <li><Link href="how">How it works</Link></li>
+                  <li><Link href="services">Services</Link></li>
                   <li><Link href="how">FAQ</Link></li>
                   <li><Link href="book">Book now</Link></li>
                 </ul>

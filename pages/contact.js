@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import hero from "../styles/hero.module.css";
+import buttons from "../styles/buttons.module.css";
 
 export default function Contact() {
   return (
@@ -12,15 +14,24 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className="container">
-        <div className="content">
-        <h2>Need help with your shipping, talk to us</h2>
-          <p>Trexco International Limited</p>
-          <p>4th Floor, 18 St Cross Street, London, EC1N 8UN, UK</p>
-          <p>Tel: +44 020 7096 1031, +44 020 7097 2265 </p>
-          <p>Email: hello@trexco.net</p>
+      <section className={hero.container}>
+        <div className={hero.content}>
+          <h2>Contact trexco: Your shipping solutions start here</h2>
           <p></p>
-          <button className="button">
+
+          <p>
+          Have questions about shipping your cargo? We are here to help!.
+          </p>
+          <p>
+            - Address: Trexco International Limited, 4th Floor, 18 St Cross
+            Street, London, EC1N 8UN, UK
+          </p>
+          <p>- Tel: +44 020 7096 1031, +44 020 7097 2265 </p>
+          <p>- Email: info@trexco.net</p>
+          <p></p>
+         
+
+          <button className={buttons.button}>
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
               Book now
             </Link>
@@ -28,10 +39,10 @@ export default function Contact() {
         </div>
         <div className="image">
           <Image
-            src="/images/container1.png"
+            src="/images/cargoship.png"
             alt="loading"
-            width={600}
-            height={466.5}
+            width={550}
+            height={550}
           />
         </div>
       </section>

@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
+import hero from "../styles/hero.module.css";
 
 export default function Terms() {
   return (
@@ -11,9 +10,9 @@ export default function Terms() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="container">
-        <div className="content">
-          <h1>Terms and conditions</h1>
+      <section className={hero.container}>
+        <div className={hero.content}>
+          <h2>Terms and conditions</h2>
           <p></p>
 
           <p>
