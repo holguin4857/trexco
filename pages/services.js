@@ -27,7 +27,7 @@ export default function Services() {
             At Trexco, we specialise in the safe and efficient transport of
             agricultural and construction machinery from the UK to Chile,
             Bolivia and Mexico. With 19 years of experience and a deep
-            understanding of the Latin American market, we're your reliable
+            understanding of the Latin American market, we are your reliable
             partner for seamless import solutions
           </p>
 
@@ -73,7 +73,7 @@ export default function Services() {
             Ship your cargo with confidence using our reliable container
             service. We offer a wide range of container types and sizes to
             accommodate everything from personal belongings to specialised
-            equipment. Whether you need a standard 40/20' container, High cube,
+            equipment. Whether you need a standard 40/20 foot container, High cube,
             open top, refrigerated, or something more unique, we have the
             perfect solution for your needs.
           </p>

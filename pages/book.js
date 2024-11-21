@@ -20,9 +20,9 @@ export default function Book() {
           <p></p>
 
           <p>
-          Don't waste time navigating complicated booking processes. Our
+          Don&apos;t waste time navigating complicated booking processes. Our
             streamlined form makes it simple to request a quote and book your
-            shipment. We're here to answer any questions you may have along the
+            shipment. We are here to answer any questions you may have along the
             way.
           </p>
           <p>

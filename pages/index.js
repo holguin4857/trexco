@@ -180,7 +180,7 @@ export default function Home() {
             Ship your cargo with confidence using our reliable container
             service. We offer a wide range of container types and sizes to
             accommodate everything from personal belongings to specialised
-            equipment. Whether you need a standard 40/20' container, High cube,
+            equipment. Whether you need a standard 40/20 foot container, High cube,
             open top, refrigerated, or something more unique, we have the
             perfect solution for your needs.
           </p>

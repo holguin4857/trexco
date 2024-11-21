@@ -34,7 +34,7 @@ export default function About() {
           <p>
             With our experience, expertise, and commitment to personalized
             service, we ensure your cargo reaches its destination safely and on
-            time, no matter where in the world you're shipping.{" "}
+            time, no matter where in the world you are shipping.{" "}
           </p>
           <button className={buttons.button}>
             <Link href="https://trexco.involve.me/trexco-personalized-quote">
