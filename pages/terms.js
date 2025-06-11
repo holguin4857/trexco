@@ -81,7 +81,7 @@ export default function Terms() {
             subcontractors and employees.
           </p>
           <p>
-            1.11 - Website means www.trexco.net, www.trexxbox.com, www.trexx.co
+            1.11 - Website means www.trexco.net
           </p>
           <ol>
             <h2> Application</h2>
