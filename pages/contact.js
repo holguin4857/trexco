@@ -26,7 +26,7 @@ export default function Contact() {
             - Address: Trexco International Limited, 4th Floor, 18 St Cross
             Street, London, EC1N 8UN, UK
           </p>
-          <p>- Tel: +44 020 7096 1031, +44 020 7097 2265 </p>
+          <p>- Tel: +44 020 4652 2334</p>
           <p>- Email: info@trexco.net</p>
           <p></p>
          
